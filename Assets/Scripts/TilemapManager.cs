@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 using UnityEngine.Rendering.PostProcessing;
+using UnityEngine.UI;
 
 public class TilemapManager : MonoBehaviour
 {
@@ -14,12 +15,17 @@ public class TilemapManager : MonoBehaviour
     [SerializeField] List<TileBase> waterVariants;
     [SerializeField] List<TileBase> plantVariants;
     [SerializeField] Camera camera;
+    [SerializeField] CameraController camController;
     [SerializeField] CanFillScript canFill;
     [SerializeField] float minRandomTime;
     [SerializeField] float maxRandomTime;
     [SerializeField] GameObject plantTop1;
     [SerializeField] GameObject plantTop2;
     [SerializeField] GameObject speech;
+    [SerializeField] GameObject pointer;
+    [SerializeField] float pointerRadius;
+    [SerializeField] Text counter;
+    int lifeEssenceCount = 0;
     public static int cameraTileWidth = 28;
     public static int cameraTileHeight = 16;
     float intensity = 0.9f;
@@ -27,6 +33,7 @@ public class TilemapManager : MonoBehaviour
     float yMult = 0.9f;
     float scale = 1f;
     GameTile[,] gameTiles;
+    public Dictionary<GameObject, GameObject> notifications = new Dictionary<GameObject, GameObject>();
 
     float randomTickTime;
     float timer = 0;
@@ -47,116 +54,224 @@ public class TilemapManager : MonoBehaviour
         }
     }
 
+    public void ShiftRight()
+    {
+        xMovedRight = true;
+        for (int x = 0; x < cameraTileWidth; x++)
+        {
+            if (yMovedUp)
+            {
+                for (int y = cameraTileHeight; y <= gameTiles.GetUpperBound(1); y++)
+                {
+                    gameTiles[worldWidth + x, y] = gameTiles[x, y];
+                    gameTiles[x, y].Reset();
+                    if (gameTiles[worldWidth + x, y].speechBubble != null)
+                    {
+                        gameTiles[worldWidth + x, y].speechBubble.transform.position =
+                            new Vector3(worldWidth + x - 0.25f, y + 1, 30);
+                    }
+                    if (gameTiles[worldWidth + x, y].topSprite != null)
+                    {
+                        gameTiles[worldWidth + x, y].topSprite.transform.position = new Vector3(worldWidth + x, y + 1, 30);
+                    }
+                    tilemap.SetTile(new Vector3Int(worldWidth + x, y, 0), tilemap.GetTile(new Vector3Int(x, y, 0)));
+                    tilemap.SetTile(new Vector3Int(x, y, 0), null);
+                }
+            }
+            else
+            {
+                for (int y = 0; y <= worldHeight; y++)
+                {
+                    gameTiles[worldWidth + x, y] = gameTiles[x, y];
+                    gameTiles[x, y].Reset();
+                    if (gameTiles[worldWidth + x, y].speechBubble != null)
+                    {
+                        gameTiles[worldWidth + x, y].speechBubble.transform.position =
+                            new Vector3(worldWidth + x - 0.25f, y + 1, 30);
+                    }
+                    if (gameTiles[worldWidth + x, y].topSprite != null)
+                    {
+                        gameTiles[worldWidth + x, y].topSprite.transform.position = new Vector3(worldWidth + x, y + 1, 30);
+                    }
+                    tilemap.SetTile(new Vector3Int(worldWidth + x, y, 0), tilemap.GetTile(new Vector3Int(x, y, 0)));
+                    tilemap.SetTile(new Vector3Int(x, y, 0), null);
+                }
+            }
+        }
+    }
+
+    public void ShiftLeft()
+    {
+        xMovedRight = false;
+        for (int x = 0; x < cameraTileWidth; x++)
+        {
+            if (yMovedUp)
+            {
+                for (int y = cameraTileHeight; y <= gameTiles.GetUpperBound(1); y++)
+                {
+                    gameTiles[x, y] = gameTiles[worldWidth + x, y];
+                    gameTiles[worldWidth + x, y].Reset();
+                    if (gameTiles[x, y].speechBubble != null)
+                    {
+                        gameTiles[x, y].speechBubble.transform.position = new Vector3(x - 0.25f, y + 1, 30);
+                    }
+                    if (gameTiles[x, y].topSprite != null)
+                    {
+                        gameTiles[x, y].topSprite.transform.position = new Vector3(x, y + 1, 30);
+                    }
+                    tilemap.SetTile(new Vector3Int(x, y, 0), tilemap.GetTile(new Vector3Int(worldWidth + x, y, 0)));
+                    tilemap.SetTile(new Vector3Int(x + worldWidth, y, 0), null);
+                }
+            }
+            else
+            {
+                for (int y = 0; y <= worldHeight; y++)
+                {
+                    gameTiles[x, y] = gameTiles[worldWidth + x, y];
+                    gameTiles[worldWidth + x, y].Reset();
+                    if (gameTiles[x, y].speechBubble != null)
+                    {
+                        gameTiles[x, y].speechBubble.transform.position = new Vector3(x - 0.25f, y + 1, 30);
+                    }
+                    if (gameTiles[x, y].topSprite != null)
+                    {
+                        gameTiles[x, y].topSprite.transform.position = new Vector3(x, y + 1, 30);
+                    }
+                    tilemap.SetTile(new Vector3Int(x, y, 0), tilemap.GetTile(new Vector3Int(worldWidth + x, y, 0)));
+                    tilemap.SetTile(new Vector3Int(x + worldWidth, y, 0), null);
+                }
+            }
+        }
+    }
+
+    public void ShiftUp()
+    {
+        yMovedUp = true;
+        for (int y = 0; y < cameraTileHeight; y++)
+        {
+            if (xMovedRight)
+            {
+                for (int x = cameraTileWidth; x <= gameTiles.GetUpperBound(0); x++)
+                {
+                    gameTiles[x, y + worldHeight] = gameTiles[x, y];
+                    gameTiles[x, y].Reset();
+                    if (gameTiles[x, y + worldHeight].speechBubble != null)
+                    {
+                        gameTiles[x, y + worldHeight].speechBubble.transform.position =
+                            new Vector3(x - 0.25f, y + worldHeight + 1, 30);
+                    }
+                    if (gameTiles[x, y + worldHeight].topSprite != null)
+                    {
+                        gameTiles[x, y + worldHeight].topSprite.transform.position = new Vector3(x, y + worldHeight + 1, 30);
+                    }
+                    tilemap.SetTile(new Vector3Int(x, y + worldHeight, 0), tilemap.GetTile(new Vector3Int(x, y, 0)));
+                    tilemap.SetTile(new Vector3Int(x, y, 0), null);
+                }
+            }
+            else
+            {
+                for (int x = 0; x <= worldWidth; x++)
+                {
+                    gameTiles[x, y + worldHeight] = gameTiles[x, y];
+                    gameTiles[x, y].Reset();
+                    if (gameTiles[x, y + worldHeight].speechBubble != null)
+                    {
+                        gameTiles[x, y + worldHeight].speechBubble.transform.position =
+                            new Vector3(x - 0.25f, y + worldHeight + 1, 30);
+                    }
+                    if (gameTiles[x, y + worldHeight].topSprite != null)
+                    {
+                        gameTiles[x, y + worldHeight].topSprite.transform.position = new Vector3(x, y + worldHeight + 1, 30);
+                    }
+                    tilemap.SetTile(new Vector3Int(x, y + worldHeight, 0), tilemap.GetTile(new Vector3Int(x, y, 0)));
+                    tilemap.SetTile(new Vector3Int(x, y, 0), null);
+                }
+            }
+        }
+    }
+
+    public void ShiftDown()
+    {
+        yMovedUp = false;
+        for (int y = 0; y < cameraTileHeight; y++)
+        {
+            if (xMovedRight)
+            {
+                for (int x = cameraTileWidth; x <= gameTiles.GetUpperBound(0); x++)
+                {
+                    gameTiles[x, y] = gameTiles[x, y + worldHeight];
+                    gameTiles[x, y + worldHeight].Reset();
+                    if (gameTiles[x, y].speechBubble != null)
+                    {
+                        gameTiles[x, y].speechBubble.transform.position = new Vector3(x - 0.25f, y + 1, 30);
+                    }
+                    if (gameTiles[x, y].topSprite != null)
+                    {
+                        gameTiles[x, y].topSprite.transform.position = new Vector3(x, y + 1, 30);
+                    }
+                    tilemap.SetTile(new Vector3Int(x, y, 0), tilemap.GetTile(new Vector3Int(x, y + worldHeight, 0)));
+                    tilemap.SetTile(new Vector3Int(x, y + worldHeight, 0), null);
+                }
+            }
+            else
+            {
+                for (int x = 0; x <= worldWidth; x++)
+                {
+                    gameTiles[x, y] = gameTiles[x, y + worldHeight];
+                    gameTiles[x, y + worldHeight].Reset();
+                    if (gameTiles[x, y].speechBubble != null)
+                    {
+                        gameTiles[x, y].speechBubble.transform.position = new Vector3(x - 0.25f, y + 1, 30);
+                    }
+                    if (gameTiles[x, y].topSprite != null)
+                    {
+                        gameTiles[x, y].topSprite.transform.position = new Vector3(x, y + 1, 30);
+                    }
+                    tilemap.SetTile(new Vector3Int(x, y, 0), tilemap.GetTile(new Vector3Int(x, y + worldHeight, 0)));
+                    tilemap.SetTile(new Vector3Int(x, y + worldHeight, 0), null);
+                }
+            }
+        }
+    }
+
     private void Update()
     {
         //camera reposition tiles
-        if(camera.transform.position.x > (worldWidth - (2 * cameraTileWidth)) && !xMovedRight)
+        if(camera.transform.position.x > (worldWidth - (2 * cameraTileWidth)) && !xMovedRight && camController.lastDirection.x > 0)
         {
-            xMovedRight = true;
-            for(int x = 0; x < cameraTileWidth; x++)
-            {
-                if (yMovedUp)
-                {
-                    for (int y = cameraTileHeight; y < gameTiles.GetUpperBound(1); y++)
-                    {
-                        gameTiles[worldWidth + x, y] = gameTiles[x, y];
-                        gameTiles[x, y].Reset();
-                        tilemap.SetTile(new Vector3Int(worldWidth + x, y, 0), tilemap.GetTile(new Vector3Int(x, y, 0)));
-                        tilemap.SetTile(new Vector3Int(x, y, 0), null);
-                    }
-                }
-                else
-                {
-                    for (int y = 0; y < worldHeight; y++)
-                    {
-                        gameTiles[worldWidth + x, y] = gameTiles[x, y];
-                        gameTiles[x, y].Reset();
-                        tilemap.SetTile(new Vector3Int(worldWidth + x, y, 0), tilemap.GetTile(new Vector3Int(x, y, 0)));
-                        tilemap.SetTile(new Vector3Int(x, y, 0), null);
-                    }
-                }
-            }
+            ShiftRight();
         }
-        else if (camera.transform.position.x < (2 * cameraTileWidth) && xMovedRight)
+        else if (camera.transform.position.x < (2 * cameraTileWidth) && xMovedRight && camController.lastDirection.x < 0)
         {
-            xMovedRight = false;
-            for (int x = 0; x < cameraTileWidth; x++)
-            {
-                if (yMovedUp)
-                {
-                    for (int y = cameraTileHeight; y < gameTiles.GetUpperBound(1); y++)
-                    {
-                        gameTiles[x, y] = gameTiles[worldWidth + x, y];
-                        gameTiles[worldWidth + x, y].Reset();
-                        tilemap.SetTile(new Vector3Int(x, y, 0), tilemap.GetTile(new Vector3Int(worldWidth + x, y, 0)));
-                        tilemap.SetTile(new Vector3Int(x + worldWidth, y, 0), null);
-                    }
-                }
-                else
-                {
-                    for (int y = 0; y < worldHeight; y++)
-                    {
-                        gameTiles[x, y] = gameTiles[worldWidth + x, y];
-                        gameTiles[worldWidth + x, y].Reset();
-                        tilemap.SetTile(new Vector3Int(x, y, 0), tilemap.GetTile(new Vector3Int(worldWidth + x, y, 0)));
-                        tilemap.SetTile(new Vector3Int(x + worldWidth, y, 0), null);
-                    }
-                }
-            }
+            ShiftLeft();
         }
 
-        if(camera.transform.position.y > (worldWidth - (cameraTileHeight * 2)) && !yMovedUp)
+        if(camera.transform.position.y > (worldWidth - (cameraTileHeight * 2)) && !yMovedUp && camController.lastDirection.y > 0)
         {
-            yMovedUp = true;
-            for(int y = 0; y < cameraTileHeight; y++)
-            {
-                if (xMovedRight)
-                {
-                    for(int x = cameraTileWidth; x < gameTiles.GetUpperBound(0); x++)
-                    {
-                        gameTiles[x, y + worldHeight] = gameTiles[x, y];
-                        gameTiles[x, y].Reset();
-                        tilemap.SetTile(new Vector3Int(x, y + worldHeight, 0), tilemap.GetTile(new Vector3Int(x, y, 0)));
-                        tilemap.SetTile(new Vector3Int(x, y, 0), null);
-                    }
-                }
-                else
-                {
-                    for (int x = 0; x < worldWidth; x++)
-                    {
-                        gameTiles[x, y + worldHeight] = gameTiles[x, y];
-                        gameTiles[x, y].Reset();
-                        tilemap.SetTile(new Vector3Int(x, y + worldHeight, 0), tilemap.GetTile(new Vector3Int(x, y, 0)));
-                        tilemap.SetTile(new Vector3Int(x, y, 0), null);
-                    }
-                }
-            }
+            ShiftUp();
         }
-        else if (camera.transform.position.y < cameraTileHeight * 2 && yMovedUp)
+        else if (camera.transform.position.y < cameraTileHeight * 2 && yMovedUp && camController.lastDirection.y < 0)
         {
-            yMovedUp = false;
-            for (int y = 0; y < cameraTileHeight; y++)
+            ShiftDown();
+        }
+
+        //update pointers
+        foreach(KeyValuePair<GameObject, GameObject> entry in notifications)
+        {
+            //check if in camera
+            Vector3 viewportPoint = camera.WorldToViewportPoint(entry.Key.transform.position + Vector3.forward);
+            if (viewportPoint.x > 0 && viewportPoint.x < 1 && viewportPoint.y > 0 && viewportPoint.y < 1)
             {
-                if (xMovedRight)
-                {
-                    for (int x = cameraTileWidth; x < gameTiles.GetUpperBound(0); x++)
-                    {
-                        gameTiles[x, y] = gameTiles[x, y + worldHeight];
-                        gameTiles[x, y + worldHeight].Reset();
-                        tilemap.SetTile(new Vector3Int(x, y, 0), tilemap.GetTile(new Vector3Int(x, y + worldHeight, 0)));
-                        tilemap.SetTile(new Vector3Int(x, y + worldHeight, 0), null);
-                    }
-                }
-                else
-                {
-                    for (int x = 0; x < worldWidth; x++)
-                    {
-                        gameTiles[x, y] = gameTiles[x, y + worldHeight];
-                        gameTiles[x, y + worldHeight].Reset();
-                        tilemap.SetTile(new Vector3Int(x, y, 0), tilemap.GetTile(new Vector3Int(x, y + worldHeight, 0)));
-                        tilemap.SetTile(new Vector3Int(x, y + worldHeight, 0), null);
-                    }
-                }
+                entry.Value.SetActive(false);
+            }
+            else
+            {
+                entry.Value.SetActive(true);
+                Vector2 direction = (camera.transform.position - entry.Key.transform.position).normalized;
+                float rotation = Mathf.Atan2(direction.y, direction.x) + Mathf.PI;
+                entry.Value.transform.rotation = Quaternion.Euler(0, 0, rotation * Mathf.Rad2Deg);
+                entry.Value.transform.position = new Vector3((Mathf.Cos(rotation) * pointerRadius) + camera.transform.position.x,
+                   (Mathf.Sin(rotation) * pointerRadius) + camera.transform.position.y, -10);
             }
         }
 
@@ -170,8 +285,7 @@ public class TilemapManager : MonoBehaviour
             Debug.Log("click pos: " + clickWorldPos);
             TileBase clickedTile = tilemap.GetTile(tilemap.WorldToCell(clickWorldPos));*/
             Vector3 clickWorldPos = camera.ScreenToWorldPoint(Input.mousePosition + Vector3.forward * 30);
-            Vector3 clickWorldModded = new Vector3(clickWorldPos.x % worldWidth, clickWorldPos.y % worldHeight, clickWorldPos.z);
-            Vector3Int tilePos = tilemap.WorldToCell(clickWorldModded);
+            Vector3Int tilePos = tilemap.WorldToCell(clickWorldPos);
             if (gameTiles[tilePos.x, tilePos.y].type == TileType.Water)//water
             {
                 canFill.ReFill();
@@ -183,23 +297,36 @@ public class TilemapManager : MonoBehaviour
                     gameTiles[tilePos.x, tilePos.y].plantStage = 1;
                     tilemap.SetTile(tilePos, plantVariants[1]);
                 }
+                else if(gameTiles[tilePos.x, tilePos.y].plantStage == 6)
+                {
+                    Destroy(gameTiles[tilePos.x, tilePos.y].topSprite);
+                    gameTiles[tilePos.x, tilePos.y].type = TileType.Dirt;
+                    gameTiles[tilePos.x, tilePos.y].plantStage = 0;
+                    gameTiles[tilePos.x, tilePos.y].waterable = false;
+                    tilemap.SetTile(tilePos, dirt);
+                    lifeEssenceCount++;
+                    counter.text = lifeEssenceCount.ToString();
+                }
                 else if(gameTiles[tilePos.x, tilePos.y].plantStage != plantVariants.Count - 1 && gameTiles[tilePos.x, tilePos.y].waterable)
                 {
                     if (canFill.UseCan())
                     {
+                        gameTiles[tilePos.x, tilePos.y].waterable = false;
                         gameTiles[tilePos.x, tilePos.y].plantStage += 1;
+                        Destroy(notifications[gameTiles[tilePos.x, tilePos.y].speechBubble]);
+                        notifications.Remove(gameTiles[tilePos.x, tilePos.y].speechBubble);
                         Destroy(gameTiles[tilePos.x, tilePos.y].speechBubble);
                         tilemap.SetTile(tilePos, plantVariants[gameTiles[tilePos.x, tilePos.y].plantStage]);
                         if (gameTiles[tilePos.x, tilePos.y].plantStage == 5)
                         {
                             gameTiles[tilePos.x, tilePos.y].topSprite = Instantiate(plantTop1, 
-                                new Vector3(tilePos.x, tilePos.y + 1, 0), Quaternion.identity);
+                                new Vector3(tilePos.x, tilePos.y + 1, -5), Quaternion.identity);
                         }
                         else if (gameTiles[tilePos.x, tilePos.y].plantStage == 6)
                         {
                             Destroy(gameTiles[tilePos.x, tilePos.y].topSprite);
                             gameTiles[tilePos.x, tilePos.y].topSprite = Instantiate(plantTop2,
-                                new Vector3(tilePos.x, tilePos.y + 1, 0), Quaternion.identity);
+                                new Vector3(tilePos.x, tilePos.y + 1, -5), Quaternion.identity);
                         }
                     }
                 }
@@ -235,7 +362,8 @@ public class TilemapManager : MonoBehaviour
                     randomDirtTiles.Add(gameTiles[x, y]);
                     dirtTilePositions.Add(new Vector2Int(x, y));
                 }
-                if (gameTiles[x, y].type == TileType.Plant && gameTiles[x, y].plantStage !=0 && gameTiles[x, y].plantStage != 6)
+                else if (gameTiles[x, y].type == TileType.Plant && gameTiles[x, y].plantStage !=0 &&
+                    gameTiles[x, y].plantStage != 6 && !gameTiles[x, y].waterable)
                 {
                     randomPlantTiles.Add(gameTiles[x, y]);
                     plantTilePositions.Add(new Vector2Int(x, y));
@@ -255,12 +383,14 @@ public class TilemapManager : MonoBehaviour
 
         if(randomPlantTiles.Count > 0)
         {
+            
             int plantIndex = Random.Range(0, randomPlantTiles.Count);
-            Vector2Int plantPosition = dirtTilePositions[plantIndex];
+            Vector2Int plantPosition = plantTilePositions[plantIndex];
             //set to waterable
             gameTiles[plantPosition.x, plantPosition.y].waterable = true;
             gameTiles[plantPosition.x, plantPosition.y].speechBubble = Instantiate(speech,
                 new Vector3(plantPosition.x - 0.25f, plantPosition.y + 1, 0), Quaternion.identity);
+            notifications.Add(gameTiles[plantPosition.x, plantPosition.y].speechBubble, Instantiate(pointer));
         }
     }
 
@@ -426,8 +556,8 @@ public class TilemapManager : MonoBehaviour
         {
             plantStage = 0;
             waterable = false;
-            Destroy(topSprite);
-            Destroy(speechBubble);
+            //Destroy(topSprite);
+            //Destroy(speechBubble);
         }
     }
 
