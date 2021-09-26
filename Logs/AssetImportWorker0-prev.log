@@ -1,0 +1,1063 @@
+Using pre-set license
+Built from '2021.1/staging' branch; Version is '2021.1.7f1 (d91830b65d9b) revision 14227504'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19041.1052; Version 2004; 64bit' Language: 'en' Physical Memory: 24480 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.1.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/reidv/source/repos/Regrowth/Regrowth
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50025
+Successfully changed project path to: C:/Users/reidv/source/repos/Regrowth/Regrowth
+C:/Users/reidv/source/repos/Regrowth/Regrowth
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 172.22 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.7f1 (d91830b65d9b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/reidv/source/repos/Regrowth/Regrowth/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 970 (ID=0x13c2)
+    Vendor:   NVIDIA
+    VRAM:     4043 MB
+    Driver:   27.21.14.6627
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56336
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003615 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 169.68 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.041 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005275 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\reidv\source\repos\Regrowth\Regrowth\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\reidv\source\repos\Regrowth\Regrowth\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 142.31 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.665 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 1.64 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4214 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 169.3 MB.
+System memory in use after: 166.6 MB.
+
+Unloading 53 unused Assets to reduce memory usage. Loaded Objects now: 4637.
+Total: 5.670400 ms (FindLiveObjects: 0.504400 ms CreateObjectMapping: 0.311600 ms MarkObjects: 3.121600 ms  DeleteObjects: 1.731300 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Tilemap/RegrowthTilemapv3.png
+  artifactKey: Guid(39faa2d282a76bb4e8cc4e728c08f9ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/RegrowthTilemapv3.png using Guid(39faa2d282a76bb4e8cc4e728c08f9ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f972822c95382fe10aaad8a2972e21d') in 0.319721 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.403713 seconds.
+  path: Assets/Tilemap/RegrowthTilemapv3.png
+  artifactKey: Guid(39faa2d282a76bb4e8cc4e728c08f9ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/RegrowthTilemapv3.png using Guid(39faa2d282a76bb4e8cc4e728c08f9ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85c36c8f668c42260d7b145b28265371') in 0.052873 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.012245 seconds.
+  path: Assets/Tilemap/RegrowthTilemapp2.png
+  artifactKey: Guid(d6086384b4e2c384e9cf83cb24c8b6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/RegrowthTilemapp2.png using Guid(d6086384b4e2c384e9cf83cb24c8b6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd41e35f797f0ae7f822d070211a201d6') in 0.032702 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 263.362369 seconds.
+  path: Assets/Tilemap/RegrowthTilemapp2.png
+  artifactKey: Guid(d6086384b4e2c384e9cf83cb24c8b6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/RegrowthTilemapp2.png using Guid(d6086384b4e2c384e9cf83cb24c8b6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8ed12541436b96a8ac9250a64795bd4') in 0.024567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.831901 seconds.
+  path: Assets/Tilemap/DirtStone.asset
+  artifactKey: Guid(10e3bf5328572764fa7aab9f821766ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/DirtStone.asset using Guid(10e3bf5328572764fa7aab9f821766ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d2a204615f6d1ef2b0b42859303a021') in 0.021494 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 50.951290 seconds.
+  path: Assets/Tilemap/PlantStage5Top.asset
+  artifactKey: Guid(850db4ca651f8954194fc17f925babdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/PlantStage5Top.asset using Guid(850db4ca651f8954194fc17f925babdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44cc46071c95d59233b6744ac30a4e46') in 0.011939 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.017179 seconds.
+  path: Assets/Tilemap/RegrowthTilemapp2.png
+  artifactKey: Guid(d6086384b4e2c384e9cf83cb24c8b6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/RegrowthTilemapp2.png using Guid(d6086384b4e2c384e9cf83cb24c8b6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7d22b856c426aa90ba6d06221b0af88') in 0.009858 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 431.686982 seconds.
+  path: Assets/Tilemap/RegrowthTilemapp2.png
+  artifactKey: Guid(d6086384b4e2c384e9cf83cb24c8b6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/RegrowthTilemapp2.png using Guid(d6086384b4e2c384e9cf83cb24c8b6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9d72d9c0c57291cfd0f470e785c870a') in 0.014696 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.527173 seconds.
+  path: Assets/Tilemap/RegrowthTilemapp2.png
+  artifactKey: Guid(d6086384b4e2c384e9cf83cb24c8b6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/RegrowthTilemapp2.png using Guid(d6086384b4e2c384e9cf83cb24c8b6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd745766a6c4d9326d646ad50ac53e49') in 0.011404 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.995293 seconds.
+  path: Assets/Tilemap/RegrowthTilemap.png
+  artifactKey: Guid(5d5059852e339cb468a012b0df8544b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/RegrowthTilemap.png using Guid(5d5059852e339cb468a012b0df8544b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ab5a78b0c57d398eaa408176f43fcbe') in 0.085072 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 53.453155 seconds.
+  path: Assets/Tilemap/RegrowthTilemap.png
+  artifactKey: Guid(5d5059852e339cb468a012b0df8544b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/RegrowthTilemap.png using Guid(5d5059852e339cb468a012b0df8544b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccd4d2a3c6d17446ff6ac8098256197b') in 0.065190 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.143342 seconds.
+  path: Assets/Tilemap/RegrowthTilemapp2.png
+  artifactKey: Guid(d6086384b4e2c384e9cf83cb24c8b6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/RegrowthTilemapp2.png using Guid(d6086384b4e2c384e9cf83cb24c8b6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e06699d7a87a2e929054ba91d32674cf') in 0.037880 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.716386 seconds.
+  path: Assets/Tilemap/BasicDirt.asset
+  artifactKey: Guid(8a7c4b1088395a042b2869089a95cdc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/BasicDirt.asset using Guid(8a7c4b1088395a042b2869089a95cdc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5400a9aeb36991668ffe0f7093c0d51a') in 0.006129 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.475853 seconds.
+  path: Assets/Tilemap/DirtSeed.asset
+  artifactKey: Guid(050e11cd9b8a57345b593001ec2315c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/DirtSeed.asset using Guid(050e11cd9b8a57345b593001ec2315c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ea8b697fe411267949c324e3a490d70') in 0.005332 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.670191 seconds.
+  path: Assets/Tilemap/PlantStage1.asset
+  artifactKey: Guid(4dcb4b86c28bcd5448a0e36d57c425fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/PlantStage1.asset using Guid(4dcb4b86c28bcd5448a0e36d57c425fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc355fc9359591cfe0b4b5336250bb4e') in 0.022804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.363061 seconds.
+  path: Assets/Tilemap/PlantStage2.asset
+  artifactKey: Guid(0ad23f4aae1b7034babacd437d185db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/PlantStage2.asset using Guid(0ad23f4aae1b7034babacd437d185db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f27b84db3bd86fbc03cdcc1226a4732') in 0.005955 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.494430 seconds.
+  path: Assets/Tilemap/PlantStage3.asset
+  artifactKey: Guid(8715e455fd8b31c419a3b8d586f065ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/PlantStage3.asset using Guid(8715e455fd8b31c419a3b8d586f065ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '873717fb2e96aee2ab781461536a4d95') in 0.025218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.231668 seconds.
+  path: Assets/Tilemap/PlantStage4.asset
+  artifactKey: Guid(0a1588edb8c33fd45808b670cac1420d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/PlantStage4.asset using Guid(0a1588edb8c33fd45808b670cac1420d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41ca0753f30ba916b15224caa7c1ca01') in 0.006801 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.188804 seconds.
+  path: Assets/Tilemap/PlantStage5Bottom.asset
+  artifactKey: Guid(2cb7302c6a119694683214446ec29ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/PlantStage5Bottom.asset using Guid(2cb7302c6a119694683214446ec29ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0469baa0792a060c44bee0a9ff2cbaee') in 0.006472 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.325989 seconds.
+  path: Assets/Tilemap/PlantStage6Bottom.asset
+  artifactKey: Guid(cb62893851840b949b18d9b75948068b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/PlantStage6Bottom.asset using Guid(cb62893851840b949b18d9b75948068b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a2fcafaa030f3b624ef8749a5741d35') in 0.006419 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 58.901341 seconds.
+  path: Assets/Tilemap/PlantStage6Top.asset
+  artifactKey: Guid(7ef4109148d29674caf0da1189be9513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/PlantStage6Top.asset using Guid(7ef4109148d29674caf0da1189be9513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b1628241c6da6935f81bfb1ec9095c9') in 0.007286 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.370931 seconds.
+  path: Assets/Tilemap/WaterDirtAbove.asset
+  artifactKey: Guid(d01d6d3a22656004481d4c2d02293743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/WaterDirtAbove.asset using Guid(d01d6d3a22656004481d4c2d02293743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea70d55d72e8da9d62a4d094fed3d257') in 0.024414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.183386 seconds.
+  path: Assets/Tilemap/WaterDirtAboveRight.asset
+  artifactKey: Guid(dda62024d94c9f34799c124d9aba9070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/WaterDirtAboveRight.asset using Guid(dda62024d94c9f34799c124d9aba9070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef7773d93271ff60189b61661754cdd9') in 0.005624 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 74.162871 seconds.
+  path: Assets/Tilemap/WaterSandwichHoriz.asset
+  artifactKey: Guid(8d41a5369952d3a4da6c6bf90f584f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/WaterSandwichHoriz.asset using Guid(8d41a5369952d3a4da6c6bf90f584f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a42426b83836d9ef15664f183103443') in 0.007776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 78.920330 seconds.
+  path: Assets/Tilemap/WaterDirtLeft.asset
+  artifactKey: Guid(da422afe16287b2459b3d129100c085f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/WaterDirtLeft.asset using Guid(da422afe16287b2459b3d129100c085f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1abd515135e96f124599d832102fde80') in 0.005727 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.346871 seconds.
+  path: Assets/Tilemap/Water.asset
+  artifactKey: Guid(8b8c4c48e6594ea4bb66a0383cfd843f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Water.asset using Guid(8b8c4c48e6594ea4bb66a0383cfd843f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa14c7338d2404d4f46b2ef1516aa45d') in 0.023694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.417183 seconds.
+  path: Assets/Tilemap/WaterDirtRight.asset
+  artifactKey: Guid(a7986f3e090ebeb4baf06d5ee6ab8699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/WaterDirtRight.asset using Guid(a7986f3e090ebeb4baf06d5ee6ab8699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f180da3ac7641e42ef1918006aa6e55') in 0.005438 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 47.502953 seconds.
+  path: Assets/Tilemap/WaterDirtBelowLeft.asset
+  artifactKey: Guid(8ef47f7d53d88c44e86819dea3969221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/WaterDirtBelowLeft.asset using Guid(8ef47f7d53d88c44e86819dea3969221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '821bc6653480f5bff029eb3c52735fbb') in 0.025502 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.904304 seconds.
+  path: Assets/Tilemap/WaterDirtBelow.asset
+  artifactKey: Guid(6aac7bc6b1c29f5488ba8c886115a9ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/WaterDirtBelow.asset using Guid(6aac7bc6b1c29f5488ba8c886115a9ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a456a53daed1000df8d1978591f643f') in 0.008199 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.758906 seconds.
+  path: Assets/Tilemap/WaterDirtBelowRight.asset
+  artifactKey: Guid(5f7a1807a0adb74429b782e877028344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/WaterDirtBelowRight.asset using Guid(5f7a1807a0adb74429b782e877028344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '415b5cc1cd8a45c680ef41d56ba1ef13') in 0.006086 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.927489 seconds.
+  path: Assets/Tilemap/WaterDirtBelowRight.asset
+  artifactKey: Guid(5f7a1807a0adb74429b782e877028344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/WaterDirtBelowRight.asset using Guid(5f7a1807a0adb74429b782e877028344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c9863cd66620e043a2182aa411abcff') in 0.009192 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006185 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\reidv\source\repos\Regrowth\Regrowth\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\reidv\source\repos\Regrowth\Regrowth\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.21 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.459 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4116 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 171.4 MB.
+System memory in use after: 168.8 MB.
+
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 4795.
+Total: 4.633900 ms (FindLiveObjects: 0.397200 ms CreateObjectMapping: 0.263800 ms MarkObjects: 2.592500 ms  DeleteObjects: 1.365200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004867 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\reidv\source\repos\Regrowth\Regrowth\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\reidv\source\repos\Regrowth\Regrowth\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.301 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4114 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 171.5 MB.
+System memory in use after: 168.7 MB.
+
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 4798.
+Total: 6.564800 ms (FindLiveObjects: 0.470900 ms CreateObjectMapping: 0.270600 ms MarkObjects: 4.160600 ms  DeleteObjects: 1.660600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004087 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\reidv\source\repos\Regrowth\Regrowth\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\reidv\source\repos\Regrowth\Regrowth\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.380 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4114 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 171.5 MB.
+System memory in use after: 168.8 MB.
+
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 4801.
+Total: 6.022300 ms (FindLiveObjects: 0.633700 ms CreateObjectMapping: 0.429800 ms MarkObjects: 3.345100 ms  DeleteObjects: 1.612100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005922 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\reidv\source\repos\Regrowth\Regrowth\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\reidv\source\repos\Regrowth\Regrowth\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.344 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.07 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4114 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 171.6 MB.
+System memory in use after: 168.8 MB.
+
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 4804.
+Total: 5.422600 ms (FindLiveObjects: 0.399700 ms CreateObjectMapping: 0.380300 ms MarkObjects: 3.261300 ms  DeleteObjects: 1.379900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004547 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\reidv\source\repos\Regrowth\Regrowth\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\reidv\source\repos\Regrowth\Regrowth\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.19 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.234 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4114 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 171.6 MB.
+System memory in use after: 168.8 MB.
+
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 4807.
+Total: 4.770800 ms (FindLiveObjects: 0.449900 ms CreateObjectMapping: 0.220100 ms MarkObjects: 2.718900 ms  DeleteObjects: 1.377400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1788.336172 seconds.
+  path: Assets/WateringCan.png
+  artifactKey: Guid(f81fc734ac5015f4b9be14c575d8cac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WateringCan.png using Guid(f81fc734ac5015f4b9be14c575d8cac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce2e0fe42acc5c68b7f71a1010a4ff17') in 0.059855 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.166171 seconds.
+  path: Assets/WateringCan.png
+  artifactKey: Guid(f81fc734ac5015f4b9be14c575d8cac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WateringCan.png using Guid(f81fc734ac5015f4b9be14c575d8cac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccbf29edbe18fefb1b6bfdef4df8343b') in 0.013150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.193843 seconds.
+  path: Assets/WateringCan.png
+  artifactKey: Guid(f81fc734ac5015f4b9be14c575d8cac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WateringCan.png using Guid(f81fc734ac5015f4b9be14c575d8cac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9830d919344af44fcbc4ae8cb879dbf') in 0.047725 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005535 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\reidv\source\repos\Regrowth\Regrowth\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\reidv\source\repos\Regrowth\Regrowth\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.498 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4115 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 172.8 MB.
+System memory in use after: 170.1 MB.
+
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 4855.
+Total: 6.690300 ms (FindLiveObjects: 0.488900 ms CreateObjectMapping: 0.335900 ms MarkObjects: 4.124500 ms  DeleteObjects: 1.739800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005459 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\reidv\source\repos\Regrowth\Regrowth\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\reidv\source\repos\Regrowth\Regrowth\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.447 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4114 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 172.8 MB.
+System memory in use after: 170.1 MB.
+
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 4858.
+Total: 5.075500 ms (FindLiveObjects: 0.413700 ms CreateObjectMapping: 0.384400 ms MarkObjects: 2.327900 ms  DeleteObjects: 1.948400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1268.343590 seconds.
+  path: Assets/Scripts/CanFillScript.cs
+  artifactKey: Guid(cbf0aa35aebb97b499ce0ef25a486553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CanFillScript.cs using Guid(cbf0aa35aebb97b499ce0ef25a486553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ae80de9707a54d14a4fcbadebdf74ee') in 0.050511 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004137 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\reidv\source\repos\Regrowth\Regrowth\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\reidv\source\repos\Regrowth\Regrowth\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.513 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4115 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 172.8 MB.
+System memory in use after: 170.1 MB.
+
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 4862.
+Total: 4.662300 ms (FindLiveObjects: 0.421000 ms CreateObjectMapping: 0.186600 ms MarkObjects: 2.667400 ms  DeleteObjects: 1.385100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006512 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\reidv\source\repos\Regrowth\Regrowth\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\reidv\source\repos\Regrowth\Regrowth\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.732 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4115 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 172.8 MB.
+System memory in use after: 170.1 MB.
+
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 4865.
+Total: 5.685700 ms (FindLiveObjects: 0.415100 ms CreateObjectMapping: 0.498300 ms MarkObjects: 3.373100 ms  DeleteObjects: 1.398000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 499.853111 seconds.
+  path: Assets/Scripts/CanFillScript.cs
+  artifactKey: Guid(cbf0aa35aebb97b499ce0ef25a486553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CanFillScript.cs using Guid(cbf0aa35aebb97b499ce0ef25a486553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcf2845a345420254c3d423cfcb48dba') in 0.010273 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004752 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\reidv\source\repos\Regrowth\Regrowth\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\reidv\source\repos\Regrowth\Regrowth\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.447 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4115 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 172.8 MB.
+System memory in use after: 170.1 MB.
+
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 4868.
+Total: 5.332000 ms (FindLiveObjects: 0.525000 ms CreateObjectMapping: 0.300200 ms MarkObjects: 3.027300 ms  DeleteObjects: 1.478500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 154.898081 seconds.
+  path: Assets/Scripts/InputHandler.cs
+  artifactKey: Guid(7fd49a62f148b0243a358a5fe903eadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/InputHandler.cs using Guid(7fd49a62f148b0243a358a5fe903eadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e08f839e3a619a7653ca785c6c2ee40') in 0.012410 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007341 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\reidv\source\repos\Regrowth\Regrowth\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\reidv\source\repos\Regrowth\Regrowth\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.559 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4116 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 172.9 MB.
+System memory in use after: 170.2 MB.
+
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 4872.
+Total: 4.626700 ms (FindLiveObjects: 0.364500 ms CreateObjectMapping: 0.370500 ms MarkObjects: 2.490300 ms  DeleteObjects: 1.400600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005679 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\reidv\source\repos\Regrowth\Regrowth\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\reidv\source\repos\Regrowth\Regrowth\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.392 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4116 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 172.9 MB.
+System memory in use after: 170.2 MB.
+
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 4875.
+Total: 5.037000 ms (FindLiveObjects: 0.445700 ms CreateObjectMapping: 0.181100 ms MarkObjects: 3.125100 ms  DeleteObjects: 1.284000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 681.346533 seconds.
+  path: Assets/Scripts/InputHandler.cs
+  artifactKey: Guid(7fd49a62f148b0243a358a5fe903eadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/InputHandler.cs using Guid(7fd49a62f148b0243a358a5fe903eadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a9ea8adeda257bb53349496c17064c2') in 0.008632 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Scripts/TilemapManager.cs
+  artifactKey: Guid(8b54757c2533a2a48bda06dd26210b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/TilemapManager.cs using Guid(8b54757c2533a2a48bda06dd26210b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1ba7b8b41661d259420ce6c03d826b0') in 0.010038 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005149 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\reidv\source\repos\Regrowth\Regrowth\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\reidv\source\repos\Regrowth\Regrowth\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.481 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.95 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4116 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 172.9 MB.
+System memory in use after: 170.2 MB.
+
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 4878.
+Total: 5.783600 ms (FindLiveObjects: 0.435100 ms CreateObjectMapping: 0.256600 ms MarkObjects: 3.713800 ms  DeleteObjects: 1.377000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007228 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\reidv\source\repos\Regrowth\Regrowth\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\reidv\source\repos\Regrowth\Regrowth\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.99 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.567 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4116 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 173.0 MB.
+System memory in use after: 170.2 MB.
+
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 4881.
+Total: 5.928000 ms (FindLiveObjects: 0.412000 ms CreateObjectMapping: 0.254600 ms MarkObjects: 3.906600 ms  DeleteObjects: 1.353200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007065 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\reidv\source\repos\Regrowth\Regrowth\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\reidv\source\repos\Regrowth\Regrowth\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.723 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.46 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4116 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 172.9 MB.
+System memory in use after: 170.2 MB.
+
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 4884.
+Total: 5.993700 ms (FindLiveObjects: 0.386300 ms CreateObjectMapping: 0.317300 ms MarkObjects: 3.637000 ms  DeleteObjects: 1.651700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004569 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\reidv\source\repos\Regrowth\Regrowth\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\reidv\source\repos\Regrowth\Regrowth\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.895 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.39 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4116 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 172.9 MB.
+System memory in use after: 170.2 MB.
+
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 4887.
+Total: 7.024500 ms (FindLiveObjects: 0.651500 ms CreateObjectMapping: 0.488700 ms MarkObjects: 3.304100 ms  DeleteObjects: 2.578700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006248 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\reidv\source\repos\Regrowth\Regrowth\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\reidv\source\repos\Regrowth\Regrowth\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.361 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4116 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 173.1 MB.
+System memory in use after: 170.3 MB.
+
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 4890.
+Total: 4.891900 ms (FindLiveObjects: 0.624800 ms CreateObjectMapping: 0.417500 ms MarkObjects: 2.336200 ms  DeleteObjects: 1.512200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004892 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\reidv\source\repos\Regrowth\Regrowth\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\reidv\source\repos\Regrowth\Regrowth\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.40 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.288 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4116 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 173.0 MB.
+System memory in use after: 170.4 MB.
+
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 4893.
+Total: 5.179400 ms (FindLiveObjects: 0.410900 ms CreateObjectMapping: 0.352200 ms MarkObjects: 2.917700 ms  DeleteObjects: 1.497300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005846 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\reidv\source\repos\Regrowth\Regrowth\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\reidv\source\repos\Regrowth\Regrowth\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.15 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.369 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4116 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 173.0 MB.
+System memory in use after: 170.4 MB.
+
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 4896.
+Total: 4.424000 ms (FindLiveObjects: 0.418600 ms CreateObjectMapping: 0.281800 ms MarkObjects: 2.438200 ms  DeleteObjects: 1.284600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004679 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\reidv\source\repos\Regrowth\Regrowth\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\reidv\source\repos\Regrowth\Regrowth\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.625 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4116 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 173.1 MB.
+System memory in use after: 170.4 MB.
+
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 4899.
+Total: 5.720500 ms (FindLiveObjects: 0.410500 ms CreateObjectMapping: 0.265300 ms MarkObjects: 3.537300 ms  DeleteObjects: 1.505700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005712 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\reidv\source\repos\Regrowth\Regrowth\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\reidv\source\repos\Regrowth\Regrowth\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.02 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.597 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.01 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4116 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 173.0 MB.
+System memory in use after: 170.4 MB.
+
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 4902.
+Total: 5.816200 ms (FindLiveObjects: 0.501000 ms CreateObjectMapping: 0.329300 ms MarkObjects: 3.439800 ms  DeleteObjects: 1.544500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005556 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\reidv\source\repos\Regrowth\Regrowth\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\reidv\source\repos\Regrowth\Regrowth\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.614 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4116 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 173.1 MB.
+System memory in use after: 170.4 MB.
+
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 4905.
+Total: 5.798200 ms (FindLiveObjects: 0.426500 ms CreateObjectMapping: 0.356300 ms MarkObjects: 3.309800 ms  DeleteObjects: 1.703700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005408 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\reidv\source\repos\Regrowth\Regrowth\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\reidv\source\repos\Regrowth\Regrowth\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.23 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.610 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4116 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 173.1 MB.
+System memory in use after: 170.4 MB.
+
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 4908.
+Total: 6.008700 ms (FindLiveObjects: 0.478100 ms CreateObjectMapping: 0.272900 ms MarkObjects: 3.549800 ms  DeleteObjects: 1.706500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005125 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\reidv\source\repos\Regrowth\Regrowth\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\reidv\source\repos\Regrowth\Regrowth\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.29 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.592 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.99 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4116 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 173.1 MB.
+System memory in use after: 170.4 MB.
+
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 4911.
+Total: 7.919800 ms (FindLiveObjects: 0.625200 ms CreateObjectMapping: 0.445000 ms MarkObjects: 4.629600 ms  DeleteObjects: 2.218500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005975 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\reidv\source\repos\Regrowth\Regrowth\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\reidv\source\repos\Regrowth\Regrowth\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.31 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.639 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4116 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 173.1 MB.
+System memory in use after: 170.4 MB.
+
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 4914.
+Total: 6.225600 ms (FindLiveObjects: 0.434400 ms CreateObjectMapping: 0.304600 ms MarkObjects: 3.414400 ms  DeleteObjects: 2.070500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005241 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\reidv\source\repos\Regrowth\Regrowth\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\reidv\source\repos\Regrowth\Regrowth\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.02 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.584 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4116 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 173.1 MB.
+System memory in use after: 170.4 MB.
+
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 4917.
+Total: 5.994800 ms (FindLiveObjects: 0.338000 ms CreateObjectMapping: 0.315300 ms MarkObjects: 3.810200 ms  DeleteObjects: 1.530000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004436 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\reidv\source\repos\Regrowth\Regrowth\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\reidv\source\repos\Regrowth\Regrowth\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.75 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.438 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.10 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4116 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 173.2 MB.
+System memory in use after: 170.5 MB.
+
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 4920.
+Total: 6.284600 ms (FindLiveObjects: 0.562400 ms CreateObjectMapping: 0.429500 ms MarkObjects: 3.662800 ms  DeleteObjects: 1.628700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2349.801204 seconds.
+  path: Assets/Scenes/GameScene/PostProcessVolume Profile.asset
+  artifactKey: Guid(67f6dc398680dfd45994d7f01fd14be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameScene/PostProcessVolume Profile.asset using Guid(67f6dc398680dfd45994d7f01fd14be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c2a6ab1304147b8682a719a19493af4') in 0.035207 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 85.448879 seconds.
+  path: Assets/Scenes/GameScene_Profiles/Main Camera Profile.asset
+  artifactKey: Guid(38ec9d9f5b8aaa84a92f1978e5a8b3c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameScene_Profiles/Main Camera Profile.asset using Guid(38ec9d9f5b8aaa84a92f1978e5a8b3c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c14115e17ee8e20f10a17bf2431c981') in 0.014762 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004767 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\reidv\source\repos\Regrowth\Regrowth\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\reidv\source\repos\Regrowth\Regrowth\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.346 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4116 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 173.2 MB.
+System memory in use after: 170.5 MB.
+
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 4923.
+Total: 8.193200 ms (FindLiveObjects: 0.539200 ms CreateObjectMapping: 0.286100 ms MarkObjects: 4.593100 ms  DeleteObjects: 2.773300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005006 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\reidv\source\repos\Regrowth\Regrowth\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\reidv\source\repos\Regrowth\Regrowth\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.604 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.49 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4116 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 173.3 MB.
+System memory in use after: 170.5 MB.
+
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 4926.
+Total: 6.923700 ms (FindLiveObjects: 0.433600 ms CreateObjectMapping: 0.383000 ms MarkObjects: 4.086600 ms  DeleteObjects: 2.019100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004863 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\reidv\source\repos\Regrowth\Regrowth\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\reidv\source\repos\Regrowth\Regrowth\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.63 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.593 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.18 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4116 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 173.3 MB.
+System memory in use after: 170.6 MB.
+
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 4929.
+Total: 6.816200 ms (FindLiveObjects: 0.579000 ms CreateObjectMapping: 0.633100 ms MarkObjects: 3.633500 ms  DeleteObjects: 1.969400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004281 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\reidv\source\repos\Regrowth\Regrowth\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\reidv\source\repos\Regrowth\Regrowth\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.609 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4116 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 173.3 MB.
+System memory in use after: 170.6 MB.
+
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 4932.
+Total: 8.097700 ms (FindLiveObjects: 0.919300 ms CreateObjectMapping: 0.702900 ms MarkObjects: 4.025800 ms  DeleteObjects: 2.447200 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

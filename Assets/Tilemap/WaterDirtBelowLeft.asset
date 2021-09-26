@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: WaterDirtBelowLeft
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: -6139031179828963159, guid: 39faa2d282a76bb4e8cc4e728c08f9ff, type: 3}
+  m_Sprite: {fileID: -8833134147612904049, guid: 5d5059852e339cb468a012b0df8544b2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1
